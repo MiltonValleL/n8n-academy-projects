@@ -1,0 +1,33 @@
+# --- Secrets & environment ---
+.env
+.env.*
+*.key
+*.pem
+credentials*.json
+**/secrets/
+
+# --- n8n local (si self-hosteas o usas n8n local) ---
+.n8n/
+*.sqlite
+*.sqlite-journal
+
+# --- Python (por si corres scripts de apoyo) ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# --- Editores / IDE ---
+.vscode/
+.idea/
+*.swp
+
+# --- Sistema operativo ---
+.DS_Store
+Thumbs.db
+*~
+
+# --- Logs & temporales ---
+*.log
+tmp/

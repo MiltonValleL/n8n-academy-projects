@@ -1,0 +1,61 @@
+{
+  "name": "Hacker News Workflow",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "b2a74644-b938-4a59-98cd-c6fc0fa650a3",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "resource": "all",
+        "limit": 10,
+        "additionalFields": {
+          "keyword": "automation"
+        }
+      },
+      "type": "n8n-nodes-base.hackerNews",
+      "typeVersion": 1,
+      "position": [
+        224,
+        0
+      ],
+      "id": "eae8391b-b8d0-4e69-acd9-2343dfc47b50",
+      "name": "Hacker News",
+      "notesInFlow": true,
+      "notes": "Get the 10 latest articles"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "Hacker News",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "abb91623-9a66-4fc2-8aa4-3dfc2256b1f9",
+  "meta": {
+    "instanceId": "3949cd0beb54801a04027e9e50bae797f70454d64dbc927f8f3fa3668f471c4c"
+  },
+  "nodeGroups": [],
+  "id": "JAvfHbdyG5NuiDCv",
+  "tags": []
+}

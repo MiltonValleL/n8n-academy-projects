@@ -9,6 +9,8 @@
 
 This folder holds my projects, graded assessments, and notes for QS101.
 
+<br><br>
+
 ---
 
 ## What this course is about
@@ -24,11 +26,15 @@ By the end you should be able to:
 - Handle errors gracefully with dedicated error workflows.
 - Build a functioning AI agent connected to real data.
 
+<br><br>
+
 ---
 
 ## Course structure
 
 QS101 is organized into three progressive sections, each ending in a concrete build.
+
+<br>
 
 ### Section 1 — Getting started
 **Build:** your first workflows.
@@ -40,6 +46,8 @@ QS101 is organized into three progressive sections, each ending in a concrete bu
 | **HTTP Requests** | Fetching and sending data to external services with the `HTTP Request` node. |
 | **Expressions** | Referencing and manipulating data dynamically between nodes. |
 | **API credentials** | Storing and reusing authentication for app/service nodes securely. |
+
+<br>
 
 ### Section 2 — Working with data
 **Build:** a data pipeline with error handling.
@@ -53,6 +61,8 @@ QS101 is organized into three progressive sections, each ending in a concrete bu
 | **Error workflows** | Catching and responding to failures without breaking the run. |
 | **File operations** | Reading from and writing to files (binary data handling). |
 
+<br>
+
 ### Section 3 — Building an AI agent
 **Build:** a customer-service chatbot.
 
@@ -64,6 +74,8 @@ QS101 is organized into three progressive sections, each ending in a concrete bu
 | **Tool connections** | Letting the agent look up real data (e.g. customer records). |
 | **System prompts** | Shaping the agent's behavior, scope, and tone. |
 
+<br><br>
+
 ---
 
 ## Prerequisites
@@ -72,6 +84,8 @@ QS101 is organized into three progressive sections, each ending in a concrete bu
 - A publicly accessible **n8n instance** — n8n Cloud (free trial) or self-hosted (free).
 - An **API key** from a chat-model provider (OpenAI, Anthropic, Google Gemini, DeepSeek, or Groq) for the AI agent section. Free trial credits are usually enough.
 - Optional: join the n8n Discord / community for help.
+
+<br><br>
 
 ---
 
@@ -86,9 +100,11 @@ QS101 is organized into three progressive sections, each ending in a concrete bu
 
 > **Recommended order:** finish the hands-on workflow exercises *before* the quizzes — several quiz questions assume you already have a working workflow or agent.
 
-Passing earns a **badge** (assigned automatically; first-time recipients get an email from the badges platform) and a **certificate of completion**. Note that QS101 is **not a formal certification**.
+Passing earns a **badge** (*assigned automatically; first-time recipients get an email from the badges platform*) and a **certificate of completion**. Note that QS101 is **not a formal certification**.
 
 **Estimated completion time:** 3–5 hours.
+
+<br><br>
 
 ---
 
@@ -96,12 +112,14 @@ Passing earns a **badge** (assigned automatically; first-time recipients get an 
 
 | Section | Build | Status |
 |---------|-------|--------|
-| 1 — Getting started | First workflows | ⬜ Not started |
-| 2 — Working with data | Data pipeline + error handling | ⬜ Not started |
+| 1 — Getting started | First workflows | ✅ Completed |
+| 2 — Working with data | Data pipeline + error handling | 🟠 In progress |
 | 3 — Building an AI agent | Customer-service chatbot | ⬜ Not started |
 | — | Final exam | ⬜ Not started |
 
 *(Update the status icons — ⬜ → 🟠 → ✅ — as you go.)*
+
+<br><br>
 
 ---
 
@@ -114,6 +132,8 @@ QS101-n8n-quickstart/
 ├── assessments/       # Graded hands-on exercises (.json exports)
 └── notes/             # Concept notes, screenshots, and gotchas
 ```
+
+<br><br>
 
 ---
 

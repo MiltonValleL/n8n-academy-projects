@@ -151,4 +151,3 @@ On passing, you receive a **verifiable badge** (issued via the badges platform) 
 
 *Maintained by [Milton Valle](https://github.com/MiltonValleL) · Learning in public.*
 
-<br>
